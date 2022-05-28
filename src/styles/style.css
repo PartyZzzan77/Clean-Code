@@ -20,7 +20,8 @@
   width: 100%;
 }
 
-.header__link {
+.header__title {
+  font-size: inherit;
   font-family: fantasy, cursive;
 }
 
