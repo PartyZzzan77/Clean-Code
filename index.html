@@ -15,7 +15,9 @@
         href="./src/styles/style.css"
         media="screen"/>
   </head>
+
   <body class="page">
+
     <header class="header">
       <img
           class="header__image" 
@@ -29,16 +31,18 @@
         </a>
       </h1>
     </header>
+
     <main class="main-wrapper">
       <section class="todo">
         <h2 class="title title_extra">
           <label for="add-task">Add Item</label>
         </h2>
-      <div class="todo__container">
-        <input id="add-task" class="task task_extra" type="text"/>
-        <button class="button" aria-label="button add task">Add</button>
-      </div>
-    </section>
+        <div class="todo__container">
+          <input id="add-task" class="task task_extra" type="text"/>
+          <button class="button" aria-label="button add task">Add</button>
+        </div>
+      </section>
+
       <section class="todo">
         <h2 class="title">Todo</h2>
         <ul class="tasks-box task_incomplete">
@@ -59,6 +63,7 @@
                   alt="button delete task"/>
             </button>
           </li>
+
           <li class="tasks-box__item tasks-box__item_editable">
             <input
                 class="task__checkbox"
@@ -86,6 +91,7 @@
           </li>
         </ul>
       </section>
+
       <section class="todo">
         <h2 class="title">Completed</h2>
         <ul class="tasks-box task_completed">
@@ -116,6 +122,9 @@
         </ul>
       </section>
     </main>
+
     <script src="./src/scripts/app.js"></script>
+
   </body>
+
 </html>
