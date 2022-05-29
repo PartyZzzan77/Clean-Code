@@ -176,11 +176,11 @@
   display: none;
 }
 
-.edit-mode .task {
+.tasks-box__item_editable .task {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task__label {
+.tasks-box__item_editable .task__label {
   display: none;
 }
