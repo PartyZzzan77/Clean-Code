@@ -21,6 +21,7 @@
 }
 
 .header__title {
+  margin: 0;
   font-size: inherit;
   font-family: fantasy, cursive;
 }
