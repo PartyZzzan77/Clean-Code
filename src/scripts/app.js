@@ -51,10 +51,13 @@ var createNewTaskElement=function(taskString){
 
   editButton.innerText='Edit'; //innerText encodes special characters, HTML does not.
   editButton.classList.add('button', 'button_edit');
+  editButton.ariaLabel='button edit task';
 
   deleteButton.classList.add('button', 'button_delete');
+  deleteButton.ariaLabel='button delete task';
   deleteButtonImg.src='./src/assets/svg/remove.svg';
   deleteButtonImg.className = 'button__ico';
+  deleteButtonImg.alt='button delete task';
   deleteButton.appendChild(deleteButtonImg);
 
   //and appending.
