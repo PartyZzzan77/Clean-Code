@@ -41,7 +41,7 @@ var createNewTaskElement=function(taskString){
   label.htmlFor=uniqElemString
   //Each elements, needs appending
   checkBox.type='checkbox';
-  checkBox.className = 'tasks-box__checkbox';
+  checkBox.className = 'tasks-box__checkbox_centered';
   checkBox.ariaLabel=uniqElemString;
   editInput.type='text';
   editInput.className='task';
