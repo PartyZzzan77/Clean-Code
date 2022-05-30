@@ -104,7 +104,11 @@
   list-style: none;
 }
 
-.tasks-box__item > * {
+.task,
+.tasks-box__checkbox,
+.tasks-box__label,
+.button_edit,
+.button_delete {
   vertical-align: middle;
 }
 
