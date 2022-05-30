@@ -43,7 +43,7 @@
 }
 
 .task,
-.task__label {
+.tasks-box__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -108,7 +108,7 @@
   vertical-align: middle;
 }
 
-.task__checkbox {
+.tasks-box__checkbox {
   margin: 0 10px;
 }
 
@@ -132,7 +132,7 @@
   color: #333;
 }
 
-.task__label {
+.tasks-box__label {
   width: 226px;
   box-sizing: border-box;
   padding-left: 10px;
@@ -167,7 +167,7 @@
 }
 
 /* Completed */
-.task_completed .task__label {
+.tasks-box_completed .tasks-box__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -182,6 +182,6 @@
   width: 224px;
 }
 
-.tasks-box__item_editable .task__label {
+.tasks-box__item_editable .tasks-box__label {
   display: none;
 }

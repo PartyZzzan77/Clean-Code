@@ -9,10 +9,10 @@
 
 var taskInput=document.querySelector('.task_extra');//Add a new task.
 var addButton=document.getElementsByTagName('button')[0];//first button
-var incompleteTaskHolder=document.querySelector('.task_incomplete');
-//ul of .task_incomplete
-var completedTasksHolder=document.querySelector('.task_completed');
-//.task_completed
+var incompleteTaskHolder=document.querySelector('.tasks-box_incomplete');
+//ul of .tasks-box_incomplete
+var completedTasksHolder=document.querySelector('.tasks-box_completed');
+//.tasks-box_completed
 
 //New task list item
 var createNewTaskElement=function(taskString){
@@ -37,11 +37,11 @@ var createNewTaskElement=function(taskString){
   listItem.className = 'tasks-box__item';
 
   label.innerText=taskString;
-  label.className='task__label';
+  label.className='tasks-box__label';
   label.htmlFor=uniqElemString
   //Each elements, needs appending
   checkBox.type='checkbox';
-  checkBox.className = 'task__checkbox';
+  checkBox.className = 'tasks-box__checkbox';
   checkBox.ariaLabel=uniqElemString;
   editInput.type='text';
   editInput.className='task';
